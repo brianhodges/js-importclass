@@ -12,7 +12,7 @@ var countries = [
     },
     {
         name: 'Mexico',
-        population: '1.4 billion',
+        population: '127 million',
         states: ['Durango', 'Puebla', 'Guerrero', 'Quintana Roo'],
         best_city: {
             name: 'Cancun',
