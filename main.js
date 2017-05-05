@@ -30,7 +30,7 @@ countries.forEach(function(country) {
     data += "Top State Count: " + country['states'].length + delim;
     data += "Best City: " + country['best_city']['name'] + delim;
     data += country['best_city']['name'] + " Population: " + country['best_city']['population'];
-    data += delim + delim
+    data += delim + delim;
 });
 
 fs.writeFile("log.txt", data, function(err) {
